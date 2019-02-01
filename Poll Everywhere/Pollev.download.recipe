@@ -11,7 +11,7 @@
 			<key>NAME</key>
 			<string>Poll Everywhere</string>
 			<key>DOWNLOAD_URL</key>
-			<string>https://www.polleverywhere.com/app/powerpoint/mac/app.dmg</string>
+			<string>https://s3.amazonaws.com/polleverywhere-app/mac-stable/pollev.dmg</string>
 		</dict>
 		<key>MinimumVersion</key>
 		<string>0.2.9</string>
