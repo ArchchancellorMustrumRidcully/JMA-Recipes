@@ -26,8 +26,7 @@
                 <string>%DOWNLOAD_URL%</string>
                 <key>filename</key>
                 <string>%NAME%.dmg</string>
-            </dict>
-        </dict>        
+            </dict>       
         <dict>
             <key>Processor</key>
             <string>EndOfCheckPhase</string>
