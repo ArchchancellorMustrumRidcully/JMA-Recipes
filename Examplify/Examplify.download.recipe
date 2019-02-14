@@ -11,7 +11,7 @@
 	<key>Input</key>
 	<dict>
 		<key>DOWNLOAD_URL</key>
-		<string>http://releases.examsoft.com/Examplify/Examplify_LATEST_mac.dmg</string>
+		<string>https://releases.examsoft.com/Examplify/Examplify_LATEST_mac.dmg</string>
 		<key>NAME</key>
 		<string>Examplify</string>
 	</dict>
