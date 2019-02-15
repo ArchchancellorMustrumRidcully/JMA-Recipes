@@ -10,10 +10,16 @@
 	<string>com.github.JMA-Recipes.munki.Examplify</string>
 	<key>Input</key>
 	<dict>
+		<key>RestartAction</key>
+		<string>RequireRestart</string>
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>apps/%NAME%</string>
 		<key>NAME</key>
 		<string>Examplify</string>
+		<key>preuninstall_script</key>
+			<string>#!/bin/sh
+			launchctl unload /Library/LaunchDaemons/com.examsoft.ExamplifyService.plist
+                        exit 0</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>RestartAction</key>
@@ -36,10 +42,6 @@
 			<string>%NAME%</string>
 			<key>unattended_install</key>
 			<true/>
-			<key>preuninstall_script</key>
-			<string>#!/bin/sh
-			launchctl unload /Library/LaunchDaemons/com.examsoft.ExamplifyService.plist
-                        exit 0</string>
 		</dict>
 	</dict>
 	<key>MinimumVersion</key>
