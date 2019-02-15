@@ -28,7 +28,7 @@
 			<string> Examplify from ExamSoft provides the secure, offline testing platform your educational program needs to keep the exam environment secure and stable.</string>
 			<key>developer</key>
 			<array>
-				<string>ExamSoft Worldwide, Inc.</string>
+				<string>ExamSoft</string>
 			</array>
 			<key>display_name</key>
 			<string>Examplify</string>
