@@ -16,10 +16,6 @@
 		<string>apps/%NAME%</string>
 		<key>NAME</key>
 		<string>Examplify</string>
-		<key>preuninstall_script</key>
-			<string>#!/bin/sh
-			launchctl unload /Library/LaunchDaemons/com.examsoft.ExamplifyService.plist
-                        exit 0</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>RestartAction</key>
