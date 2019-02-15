@@ -16,6 +16,8 @@
 		<string>Examplify</string>
 		<key>pkginfo</key>
 		<dict>
+			<key>RestartAction</key>
+			<string>RequireRestart</string>
 			<key>blocking_applications</key>
 			<array>
 				<string>Examplify.app</string>
@@ -27,15 +29,17 @@
 			<key>description</key>
 			<string> Examplify from ExamSoft provides the secure, offline testing platform your educational program needs to keep the exam environment secure and stable.</string>
 			<key>developer</key>
-			<array>
 				<string>ExamSoft</string>
-			</array>
 			<key>display_name</key>
 			<string>Examplify</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
 			<true/>
+			<key>preuninstall_script</key>
+			<string>#!/bin/sh
+			launchctl unload /Library/LaunchDaemons/com.examsoft.ExamplifyService.plist
+                        exit 0</string>
 		</dict>
 	</dict>
 	<key>MinimumVersion</key>
