@@ -13,7 +13,7 @@
 		<key>BUNDLE_ID</key>
 		<string>com.google.WebDesigner</string>
 		<key>NAME</key>
-		<string>Google Web Designer</string>
+		<string>GoogleWebDesigner</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
