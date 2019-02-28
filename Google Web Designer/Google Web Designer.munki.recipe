@@ -23,9 +23,7 @@
 			<key>description</key>
 			<string>Create interactive HTML5 that runs on any device (beta).</string>
 			<key>developer</key>
-			<array>
 				<string>Google</string>
-			</array>
 			<key>display_name</key>
 			<string>Google Web Designer</string>
 			<key>name</key>
