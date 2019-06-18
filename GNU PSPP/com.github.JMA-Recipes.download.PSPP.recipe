@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads the latest stabel version of PSPP MacOS Bundles</string>
     <key>Identifier</key>
-    <string>com.github.JMA-Recipes.download.PSPP</string>
+    <string>com.github.JMA-Recipes.download.PSPP.recipe</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
