@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Downloads the current release version of Cyberduck and builds a package.</string>
+    <string>Downloads the current stable release version ofGNU PSPP and builds a package.</string>
     <key>Identifier</key>
     <string>com.github.JMA-Recipes.pkg.PSPP</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>Cyberduck</string>
+        <string>GNU PSPP</string>
     </dict>
     <key>ParentRecipe</key>
     <string>com.github.JMA-Recipes.download.PSPP</string>
