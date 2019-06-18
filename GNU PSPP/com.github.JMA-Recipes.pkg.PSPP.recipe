@@ -5,14 +5,14 @@
     <key>Description</key>
     <string>Downloads the current stable release version ofGNU PSPP and builds a package.</string>
     <key>Identifier</key>
-    <string>com.github.JMA-Recipes.pkg.PSPP</string>
+    <string>com.github.JMA-Recipes.pkg.PSPP.recipe</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
         <string>GNU PSPP</string>
     </dict>
     <key>ParentRecipe</key>
-    <string>com.github.JMA-Recipes.download.PSPP</string>
+    <string>com.github.JMA-Recipes.download.PSPP.recipe</string>
     <key>MinimumVersion</key>
     <string>0.2.0</string>
       <key>Process</key>
